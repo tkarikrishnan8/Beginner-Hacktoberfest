@@ -1,11 +1,7 @@
-funfunction reverseArray(arrayParameter) {
-	let reversedArray = [];
-	
-	for (let index = 0; index < arrayParameter.length; index++) {
-		reversedArray[index] = arrayParameter[(arrayParameter.length-1) - index];
-	}
-	return reversedArray;
-}
+const array1 = ['a','b','c','d','e'];
+console.log('array1:',array1);
 
-console.log(reverseArray(["a", "b", "c", "d", "e"]))
-console.log(reverseArray([1, 2, 3, 4, 5]))
+const reversed = array1.reverse();
+console.log('reversed:',reversed);
+
+console.log('array1:',array1);
